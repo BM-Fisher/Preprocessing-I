@@ -143,6 +143,11 @@ body {
   display: flex;
 }
 
+.second-titles() {
+  font-size: 24px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
 @primary-border: #f3f3f3;
 
 @secondary-color: #818181;
@@ -166,6 +171,7 @@ header {
   h1 {
     font-size: 35px;
     padding: 5px 0 15px 20px;
+    font-family: Verdana, Geneva, sans-serif;
   }
   p {
     padding: 0 0 0 20px;
@@ -199,9 +205,10 @@ header {
   margin: 25px 0 25px 0px;
 
   h2 {
-    font-size: 24px;
-    font-weight: 500;
+    .second-titles();
+    margin-bottom: 10px;
   }
+
   p {
     font-size: 14px;
     line-height: 1.6;
@@ -225,7 +232,7 @@ header {
   margin: 0 0 20px 0;
 
   h2 {
-    font-size: 24px;
+    .second-titles();
     margin-bottom: 10px;
   }
 

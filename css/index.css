@@ -151,6 +151,7 @@ header a {
 header h1 {
   font-size: 35px;
   padding: 5px 0 15px 20px;
+  font-family: Verdana, Geneva, sans-serif;
 }
 header p {
   padding: 0 0 0 20px;
@@ -181,7 +182,8 @@ header button {
 }
 .middle-content h2 {
   font-size: 24px;
-  font-weight: 500;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-bottom: 10px;
 }
 .middle-content p {
   font-size: 14px;
@@ -204,6 +206,7 @@ header button {
 }
 .work-history h2 {
   font-size: 24px;
+  font-family: Tahoma, Geneva, sans-serif;
   margin-bottom: 10px;
 }
 .work-history table {
