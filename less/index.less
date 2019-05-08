@@ -139,6 +139,10 @@ body {
   height: 100%;
 }
 
+.default-display() {
+  display: flex;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -146,7 +150,7 @@ body {
 
 header {
   nav {
-    display: flex;
+    .default-display();
     justify-content: flex-end;
     margin: 25px 0 25px 0;
   }
@@ -187,7 +191,7 @@ header {
 }
 
 .middle-content {
-  display: flex;
+  .default-display();
   margin: 25px 0 25px 0px;
 
   h2 {
