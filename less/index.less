@@ -143,6 +143,10 @@ body {
   display: flex;
 }
 
+@primary-border: #f3f3f3;
+
+@secondary-color: #818181;
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -170,7 +174,7 @@ header {
     padding: 30px 0 0 20px;
   }
   button {
-    background-color: #818181;
+    background-color: @secondary-color;
     color: #fdfcfb;
     padding: 8px;
     margin: 15px 0 45px 20px;
@@ -211,7 +215,7 @@ header {
       width: 104%;
     }
     li {
-      border: 2px solid #f3f3f3;
+      border: 2px solid @primary-border;
       padding: 5px 0 5px 10px;
     }
   }
@@ -228,8 +232,8 @@ header {
   table {
     border-collapse: collapse;
     width: 100%;
-    border-top: 1px solid #f3f3f3;
-    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid @primary-border;
+    border-bottom: 1px solid @primary-border;
   }
   td,
   th {
@@ -245,7 +249,7 @@ header {
 }
 
 footer {
-  background-color: #818181;
+  background-color: @secondary-color;
   color: #edf7fb;
   text-align: center;
   padding: 15px;
